@@ -38,18 +38,18 @@ AgroVision es un proyecto innovador que simplifica el análisis y la gestión de
 
 ## 👾 Funcionalidades
 
-|      | Funcionalidad         | Resumen       |
-| :--- | :---:           | :---          |
-| ⚙️  | **Arquitectura**  | <ul><li>Utiliza **Python** para el procesamiento de datos y análisis estadístico.</li><li>Integra **R** para la generación de visualizaciones y resúmenes estadísticos.</li><li>Incluye una capa robusta de seguridad demostrada en el archivo [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
-| 🔩 | **Calidad de Código**  | <ul><li>Sigue buenas prácticas de legibilidad y mantenimiento del código.</li><li>Adopta convenciones claras de nomenclatura de variables.</li><li>Incluye comentarios explicativos en el código.</li></ul> |
-| 📄 | **Documentación** | <ul><li>Proporciona documentación detallada en **R** para scripts de análisis estadístico.</li><li>Incluye instrucciones de uso para la gestión de datos agrícolas en Python.</li><li>Ofrece demostración de los mecanismos de seguridad en el archivo [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
-| 🔌 | **Integraciones**  | <ul><li>Integra información climática de una API para análisis estadístico en R.</li><li>Combina datos de área de cultivo y cantidad de insumos para obtener insights en Python.</li><li>Demuestra mecanismos de autenticación y autorización para seguridad.</li></ul> |
-| 🧩 | **Modularidad**    | <ul><li>Organiza funcionalidades en scripts separados para tareas específicas.</li><li>Fomenta la reutilización de componentes de código.</li><li>Facilita el mantenimiento y las actualizaciones.</li></ul> |
-| 🧪 | **Pruebas**       | <ul><li>Incluye comandos de prueba para validar las funcionalidades.</li><li>Garantiza confiabilidad y precisión en el procesamiento de datos.</li><li>Soporta integración continua para pruebas automatizadas.</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Optimiza algoritmos de procesamiento de datos para eficiencia.</li><li>Utiliza estructuras de datos adecuadas para cálculos rápidos.</li><li>Garantiza interacción fluida con menús intuitivos.</li></ul> |
-| 🛡️ | **Seguridad**      | <ul><li>Implementa una capa robusta de seguridad para proteger datos sensibles.</li><li>Controla niveles de acceso de usuarios de manera eficaz.</li><li>Eleva la confiabilidad y confidencialidad del sistema.</li></ul> |
-| 📦 | **Dependencias**  | <ul><li>Requiere **Python** y **R** para procesamiento y análisis de datos.</li><li>Incluye dependencias adicionales para integración con API climática y mecanismos de seguridad.</li><li>Garantiza compatibilidad con bibliotecas y paquetes necesarios.</li></ul> |
-| 🚀 | **Escalabilidad**   | <ul><li>Arquitectura diseñada para futuras mejoras.</li><li>Soporta escalabilidad para grandes volúmenes de datos.</li><li>Flexible para agregar nuevas funcionalidades.</li></ul> |
+|     |     Funcionalidad     | Resumen                                                                                                                                                                                                                                                                                                    |
+| :-- | :-------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ⚙️  |   **Arquitectura**    | <ul><li>Utiliza **Python** para el procesamiento de datos y análisis estadístico.</li><li>Integra **R** para la generación de visualizaciones y resúmenes estadísticos.</li><li>Incluye una capa robusta de seguridad demostrada en el archivo [Link Youtube.txt](./Link%20Youtube.txt).</li></ul>         |
+| 🔩  | **Calidad de Código** | <ul><li>Sigue buenas prácticas de legibilidad y mantenimiento del código.</li><li>Adopta convenciones claras de nomenclatura de variables.</li><li>Incluye comentarios explicativos en el código.</li></ul>                                                                                                |
+| 📄  |   **Documentación**   | <ul><li>Proporciona documentación detallada en **R** para scripts de análisis estadístico.</li><li>Incluye instrucciones de uso para la gestión de datos agrícolas en Python.</li><li>Ofrece demostración de los mecanismos de seguridad en el archivo [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
+| 🔌  |   **Integraciones**   | <ul><li>Integra información climática de una API para análisis estadístico en R.</li><li>Combina datos de área de cultivo y cantidad de insumos para obtener insights en Python.</li><li>Demuestra mecanismos de autenticación y autorización para seguridad.</li></ul>                                    |
+| 🧩  |    **Modularidad**    | <ul><li>Organiza funcionalidades en scripts separados para tareas específicas.</li><li>Fomenta la reutilización de componentes de código.</li><li>Facilita el mantenimiento y las actualizaciones.</li></ul>                                                                                               |
+| 🧪  |      **Pruebas**      | <ul><li>Incluye comandos de prueba para validar las funcionalidades.</li><li>Garantiza confiabilidad y precisión en el procesamiento de datos.</li><li>Soporta integración continua para pruebas automatizadas.</li></ul>                                                                                  |
+| ⚡️ |    **Performance**    | <ul><li>Optimiza algoritmos de procesamiento de datos para eficiencia.</li><li>Utiliza estructuras de datos adecuadas para cálculos rápidos.</li><li>Garantiza interacción fluida con menús intuitivos.</li></ul>                                                                                          |
+| 🛡️  |     **Seguridad**     | <ul><li>Implementa una capa robusta de seguridad para proteger datos sensibles.</li><li>Controla niveles de acceso de usuarios de manera eficaz.</li><li>Eleva la confiabilidad y confidencialidad del sistema.</li></ul>                                                                                  |
+| 📦  |   **Dependencias**    | <ul><li>Requiere **Python** y **R** para procesamiento y análisis de datos.</li><li>Incluye dependencias adicionales para integración con API climática y mecanismos de seguridad.</li><li>Garantiza compatibilidad con bibliotecas y paquetes necesarios.</li></ul>                                       |
+| 🚀  |   **Escalabilidad**   | <ul><li>Arquitectura diseñada para futuras mejoras.</li><li>Soporta escalabilidad para grandes volúmenes de datos.</li><li>Flexible para agregar nuevas funcionalidades.</li></ul>                                                                                                                         |
 
 ---
 
@@ -65,6 +65,7 @@ AgroVision es un proyecto innovador que simplifica el análisis y la gestión de
 ```
 
 ### 📂 Índice del Proyecto
+
 <details open>
     <summary><b><code>AGROVISION/</code></b></summary>
     <details>
@@ -89,6 +90,7 @@ AgroVision es un proyecto innovador que simplifica el análisis y la gestión de
 </details>
 
 ---
+
 ## 🚀 Primeros Pasos
 
 ### ☑️ Requisitos Previos
@@ -104,11 +106,13 @@ Instala AgroVision usando uno de los métodos abajo:
 **Construir desde el código fuente:**
 
 1. Clona el repositorio AgroVision:
+
 ```sh
 ❯ git clone https://github.com/cauasantoslt/AgroVision
 ```
 
 2. Navega al directorio del proyecto:
+
 ```sh
 ❯ cd AgroVision
 ```
@@ -118,10 +122,12 @@ Instala AgroVision usando uno de los métodos abajo:
 echo 'INSERTE-EL-COMANDO-DE-INSTALACIÓN-AQUÍ'
 
 ### 🤖 Uso
+
 Ejecuta AgroVision con el siguiente comando:
 echo 'INSERTE-EL-COMANDO-DE-EJECUCIÓN-AQUÍ'
 
 ### 🧪 Pruebas
+
 Ejecuta la suite de pruebas con el siguiente comando:
 echo 'INSERTE-EL-COMANDO-DE-PRUEBAS-AQUÍ'
 

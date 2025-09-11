@@ -38,18 +38,18 @@ AgroVision is an innovative project that simplifies the analysis and management 
 
 ## 👾 Features
 
-|      | Feature         | Summary       |
-| :--- | :---:           | :---          |
-| ⚙️  | **Architecture**  | <ul><li>Uses **Python** for data processing and statistical analysis.</li><li>Integrates **R** for generating visualizations and statistical summaries.</li><li>Includes a robust security layer demonstrated in [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>Follows best practices for code readability and maintenance.</li><li>Adopts clear variable naming conventions.</li><li>Includes explanatory comments in the code.</li></ul> |
-| 📄 | **Documentation** | <ul><li>Provides detailed documentation in **R** for statistical analysis scripts.</li><li>Includes usage instructions for agricultural data management in Python.</li><li>Offers a demonstration of security mechanisms in [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>Integrates weather information from an API for statistical analysis in R.</li><li>Combines crop area and input quantity data for insights in Python.</li><li>Demonstrates authentication and authorization mechanisms for security.</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Organizes features into separate scripts for specific tasks.</li><li>Encourages code component reuse.</li><li>Facilitates maintenance and updates.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Includes test commands to validate functionalities.</li><li>Ensures reliability and accuracy in data processing.</li><li>Supports continuous integration for automated testing.</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Optimizes data processing algorithms for efficiency.</li><li>Uses appropriate data structures for fast calculations.</li><li>Ensures smooth interaction with intuitive menus.</li></ul> |
-| 🛡️ | **Security**      | <ul><li>Implements a robust security layer to protect sensitive data.</li><li>Effectively controls user access levels.</li><li>Enhances system reliability and confidentiality.</li></ul> |
-| 📦 | **Dependencies**  | <ul><li>Requires **Python** and **R** for data processing and analysis.</li><li>Includes additional dependencies for weather API integration and security mechanisms.</li><li>Ensures compatibility with necessary libraries and packages.</li></ul> |
-| 🚀 | **Scalability**   | <ul><li>Architecture designed for future improvements.</li><li>Supports scalability for large data volumes.</li><li>Flexible for adding new features.</li></ul> |
+|     |      Feature      | Summary                                                                                                                                                                                                                                                                         |
+| :-- | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ⚙️  | **Architecture**  | <ul><li>Uses **Python** for data processing and statistical analysis.</li><li>Integrates **R** for generating visualizations and statistical summaries.</li><li>Includes a robust security layer demonstrated in [Link Youtube.txt](./Link%20Youtube.txt).</li></ul>            |
+| 🔩  | **Code Quality**  | <ul><li>Follows best practices for code readability and maintenance.</li><li>Adopts clear variable naming conventions.</li><li>Includes explanatory comments in the code.</li></ul>                                                                                             |
+| 📄  | **Documentation** | <ul><li>Provides detailed documentation in **R** for statistical analysis scripts.</li><li>Includes usage instructions for agricultural data management in Python.</li><li>Offers a demonstration of security mechanisms in [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
+| 🔌  | **Integrations**  | <ul><li>Integrates weather information from an API for statistical analysis in R.</li><li>Combines crop area and input quantity data for insights in Python.</li><li>Demonstrates authentication and authorization mechanisms for security.</li></ul>                           |
+| 🧩  |  **Modularity**   | <ul><li>Organizes features into separate scripts for specific tasks.</li><li>Encourages code component reuse.</li><li>Facilitates maintenance and updates.</li></ul>                                                                                                            |
+| 🧪  |    **Testing**    | <ul><li>Includes test commands to validate functionalities.</li><li>Ensures reliability and accuracy in data processing.</li><li>Supports continuous integration for automated testing.</li></ul>                                                                               |
+| ⚡️ |  **Performance**  | <ul><li>Optimizes data processing algorithms for efficiency.</li><li>Uses appropriate data structures for fast calculations.</li><li>Ensures smooth interaction with intuitive menus.</li></ul>                                                                                 |
+| 🛡️  |   **Security**    | <ul><li>Implements a robust security layer to protect sensitive data.</li><li>Effectively controls user access levels.</li><li>Enhances system reliability and confidentiality.</li></ul>                                                                                       |
+| 📦  | **Dependencies**  | <ul><li>Requires **Python** and **R** for data processing and analysis.</li><li>Includes additional dependencies for weather API integration and security mechanisms.</li><li>Ensures compatibility with necessary libraries and packages.</li></ul>                            |
+| 🚀  |  **Scalability**  | <ul><li>Architecture designed for future improvements.</li><li>Supports scalability for large data volumes.</li><li>Flexible for adding new features.</li></ul>                                                                                                                 |
 
 ---
 
@@ -65,6 +65,7 @@ AgroVision is an innovative project that simplifies the analysis and management 
 ```
 
 ### 📂 Project Index
+
 <details open>
     <summary><b><code>AGROVISION/</code></b></summary>
     <details>
@@ -89,6 +90,7 @@ AgroVision is an innovative project that simplifies the analysis and management 
 </details>
 
 ---
+
 ## 🚀 Getting Started
 
 ### ☑️ Prerequisites
@@ -104,11 +106,13 @@ Install AgroVision using one of the methods below:
 **Build from source:**
 
 1. Clone the AgroVision repository:
+
 ```sh
 ❯ git clone https://github.com/cauasantoslt/AgroVision
 ```
 
 2. Navigate to the project directory:
+
 ```sh
 ❯ cd AgroVision
 ```
@@ -118,10 +122,12 @@ Install AgroVision using one of the methods below:
 echo 'INSERT-INSTALL-COMMAND-HERE'
 
 ### 🤖 Usage
+
 Run AgroVision with the following command:
 echo 'INSERT-RUN-COMMAND-HERE'
 
 ### 🧪 Testing
+
 Run the test suite with the following command:
 echo 'INSERT-TEST-COMMAND-HERE'
 
