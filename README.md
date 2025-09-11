@@ -1,65 +1,71 @@
+<p align="right">
+    <b>🌐 Alterar idioma:</b>
+    <a href="readme/readme-en.md">🇺🇸 English</a> |
+    <a href="readme/readme-es.md">🇪🇸 Español</a> |
+    <a href="README.md">🇧🇷 <b>Português</b></a>
+</p>
+
 <p align="center">
-    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
+   <img src="https://placehold.co/100x40/00ff95/f4f4f4?text=AgroVision" align="center" width="40%">
 </p>
 <p align="center"><h1 align="center">AGROVISION</h1></p>
 <p align="center">
-	<em>Harvest insights, cultivate success.</em>
+    <em>Colha insights, cultive sucesso.</em>
 </p>
 <p align="center">
-	<img src="https://img.shields.io/github/license/cauasantoslt/AgroVision?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/cauasantoslt/AgroVision?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/cauasantoslt/AgroVision?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/cauasantoslt/AgroVision?style=default&color=0080ff" alt="repo-language-count">
+    <img src="https://img.shields.io/github/last-commit/cauasantoslt/AgroVision?style=default&logo=git&logoColor=white&color=0080ff" alt="último-commit">
+    <img src="https://img.shields.io/github/languages/top/cauasantoslt/AgroVision?style=default&color=0080ff" alt="linguagem-principal">
+    <img src="https://img.shields.io/github/languages/count/cauasantoslt/AgroVision?style=default&color=0080ff" alt="quantidade-linguagens">
 </p>
-<p align="center"><!-- default option, no dependency badges. -->
+<p align="center"><!-- opção padrão, sem badges de dependências. -->
 </p>
 <p align="center">
-	<!-- default option, no dependency badges. -->
+    <!-- opção padrão, sem badges de dependências. -->
 </p>
 <br>
 
-## 🔗 Table of Contents
+## 🔗 Índice
 
-- [📍 Overview](#-overview)
-- [👾 Features](#-features)
-- [📁 Project Structure](#-project-structure)
-  - [📂 Project Index](#-project-index)
-- [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
-- [📌 Project Roadmap](#-project-roadmap)
-- [🔰 Contributing](#-contributing)
-- [🎗 License](#-license)
-- [🙌 Acknowledgments](#-acknowledgments)
-
----
-
-## 📍 Overview
-
-AgroVision is a cutting-edge project that simplifies farm data analysis and management. It empowers users to generate insightful statistics and visualizations for crop areas, input quantities, and climate conditions. With user-friendly features like data integration and error bar comparisons, AgroVision caters to farmers and agricultural professionals seeking efficient decision-making tools.
+- [📍 Visão Geral](#-visão-geral)
+- [👾 Funcionalidades](#-funcionalidades)
+- [📁 Estrutura do Projeto](#-estrutura-do-projeto)
+  - [📂 Índice do Projeto](#-índice-do-projeto)
+- [🚀 Primeiros Passos](#-primeiros-passos)
+  - [☑️ Pré-requisitos](#-pré-requisitos)
+  - [⚙️ Instalação](#-instalação)
+  - [🤖 Uso](#🤖-uso)
+  - [🧪 Testes](#🧪-testes)
+- [📌 Roadmap do Projeto](#-roadmap-do-projeto)
+- [🔰 Contribuindo](#-contribuindo)
+- [🎗 Licença](#-licença)
+- [🙌 Agradecimentos](#-agradecimentos)
 
 ---
 
-## 👾 Features
+## 📍 Visão Geral
 
-|      | Feature         | Summary       |
+AgroVision é um projeto inovador que simplifica a análise e o gerenciamento de dados agrícolas. Ele permite aos usuários gerar estatísticas e visualizações para áreas de cultivo, quantidades de insumos e condições climáticas. Com recursos intuitivos como integração de dados e comparações com barras de erro, o AgroVision atende agricultores e profissionais do setor que buscam ferramentas eficientes para tomada de decisão.
+
+---
+
+## 👾 Funcionalidades
+
+|      | Funcionalidade         | Resumo       |
 | :--- | :---:           | :---          |
-| ⚙️  | **Architecture**  | <ul><li>Utilizes **Python** for data processing and statistical analysis.</li><li>Integrates **R** for generating visualizations and statistical summaries.</li><li>Includes a robust security layer demonstrated in the [Link Youtube.txt](./Link%20Youtube.txt) file.</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>Follows best practices for code readability and maintainability.</li><li>Implements clear variable naming conventions.</li><li>Includes code comments for better understanding.</li></ul> |
-| 📄 | **Documentation** | <ul><li>Provides detailed documentation in **R** for statistical analysis scripts.</li><li>Includes usage instructions for managing farm data in Python.</li><li>Offers a demonstration of security mechanisms in the [Link Youtube.txt](./Link%20Youtube.txt) file.</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>Integrates weather information from an API for statistical analysis in R.</li><li>Combines crop area and input quantity data for insights in Python.</li><li>Demonstrates authentication and authorization mechanisms for security.</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Organizes functionalities into separate scripts for specific tasks.</li><li>Encourages reusability of code components.</li><li>Facilitates easy maintenance and updates.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Includes test commands for validating functionalities.</li><li>Ensures reliability and accuracy of data processing.</li><li>Supports continuous integration for automated testing.</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Optimizes data processing algorithms for efficiency.</li><li>Utilizes appropriate data structures for faster computations.</li><li>Ensures smooth interaction with user-friendly menus.</li></ul> |
-| 🛡️ | **Security**      | <ul><li>Implements a robust security layer for safeguarding sensitive data.</li><li>Controls user access levels effectively.</li><li>Enhances overall system reliability and confidentiality.</li></ul> |
-| 📦 | **Dependencies**  | <ul><li>Requires **Python** and **R** for data processing and analysis.</li><li>Includes additional dependencies for weather API integration and security mechanisms.</li><li>Ensures compatibility with necessary libraries and packages.</li></ul> |
-| 🚀 | **Scalability**   | <ul><li>Designs the project architecture to accommodate future enhancements.</li><li>Supports scalability for handling increased data volumes.</li><li>Ensures flexibility for adding new features and functionalities.</li></ul> |
+| ⚙️  | **Arquitetura**  | <ul><li>Utiliza **Python** para processamento de dados e análise estatística.</li><li>Integra **R** para geração de visualizações e resumos estatísticos.</li><li>Inclui uma camada robusta de segurança demonstrada no arquivo [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
+| 🔩 | **Qualidade de Código**  | <ul><li>Segue boas práticas de legibilidade e manutenção do código.</li><li>Adota convenções claras de nomenclatura de variáveis.</li><li>Inclui comentários explicativos no código.</li></ul> |
+| 📄 | **Documentação** | <ul><li>Fornece documentação detalhada em **R** para scripts de análise estatística.</li><li>Inclui instruções de uso para gerenciamento de dados agrícolas em Python.</li><li>Oferece demonstração dos mecanismos de segurança no arquivo [Link Youtube.txt](./Link%20Youtube.txt).</li></ul> |
+| 🔌 | **Integrações**  | <ul><li>Integra informações climáticas de uma API para análise estatística em R.</li><li>Combina dados de área de cultivo e quantidade de insumos para insights em Python.</li><li>Demostra mecanismos de autenticação e autorização para segurança.</li></ul> |
+| 🧩 | **Modularidade**    | <ul><li>Organiza funcionalidades em scripts separados para tarefas específicas.</li><li>Estimula a reutilização de componentes de código.</li><li>Facilita manutenção e atualizações.</li></ul> |
+| 🧪 | **Testes**       | <ul><li>Inclui comandos de teste para validação das funcionalidades.</li><li>Garante confiabilidade e precisão no processamento de dados.</li><li>Suporta integração contínua para testes automatizados.</li></ul> |
+| ⚡️  | **Performance**   | <ul><li>Otimiza algoritmos de processamento de dados para eficiência.</li><li>Utiliza estruturas de dados adequadas para cálculos rápidos.</li><li>Garante interação fluida com menus intuitivos.</li></ul> |
+| 🛡️ | **Segurança**      | <ul><li>Implementa camada robusta de segurança para proteger dados sensíveis.</li><li>Controla níveis de acesso de usuários de forma eficaz.</li><li>Eleva a confiabilidade e confidencialidade do sistema.</li></ul> |
+| 📦 | **Dependências**  | <ul><li>Requer **Python** e **R** para processamento e análise de dados.</li><li>Inclui dependências adicionais para integração com API climática e mecanismos de segurança.</li><li>Garante compatibilidade com bibliotecas e pacotes necessários.</li></ul> |
+| 🚀 | **Escalabilidade**   | <ul><li>Arquitetura projetada para futuras melhorias.</li><li>Suporta escalabilidade para grandes volumes de dados.</li><li>Flexível para adicionar novas funcionalidades.</li></ul> |
 
 ---
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
 
 ```sh
 └── AgroVision/
@@ -71,112 +77,105 @@ AgroVision is a cutting-edge project that simplifies farm data analysis and mana
 ```
 
 
-### 📂 Project Index
+### 📂 Índice do Projeto
 <details open>
-	<summary><b><code>AGROVISION/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/AgroVision/blob/master/calculos_em_R.r'>calculos_em_R.r</a></b></td>
-				<td>- Generates statistical summaries and visualizations for farm data, including weather information from an API<br>- Integrates data on crop areas, input quantities, and climate conditions to provide insights on average values and standard deviations<br>- Displays a bar chart with error bars to compare average input quantities across different crops in Tacaimbó-PE.</td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/AgroVision/blob/master/# ÁREA DO MILHO + APLICAÇÃO DE FUNGICIDA.py'># ÁREA DO MILHO + APLICAÇÃO DE FUNGICIDA.py</a></b></td>
-				<td>- Facilitates management of farm plots by adding, listing, updating, deleting, and exporting data to CSV<br>- Calculates required inputs based on crop type and plot dimensions<br>- The program offers a user-friendly menu for seamless interaction.</td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/cauasantoslt/AgroVision/blob/master/Link Youtube.txt'>Link Youtube.txt</a></b></td>
-				<td>- Demonstrates how to integrate authentication and authorization mechanisms within the project architecture<br>- The code file showcases a robust security layer that safeguards sensitive data and controls user access levels effectively<br>- This crucial component ensures the project's integrity and confidentiality, enhancing overall system reliability.</td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
+    <summary><b><code>AGROVISION/</code></b></summary>
+    <details> <!-- __root__ Submodule -->
+        <summary><b>__root__</b></summary>
+        <blockquote>
+            <table>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/AgroVision/blob/master/calculos_em_R.r'>calculos_em_R.r</a></b></td>
+                <td>- Gera resumos estatísticos e visualizações para dados agrícolas, incluindo informações climáticas de uma API<br>- Integra dados de áreas de cultivo, quantidades de insumos e condições climáticas para fornecer insights sobre médias e desvios padrão<br>- Exibe gráfico de barras com barras de erro para comparar médias de insumos entre diferentes culturas em Tacaimbó-PE.</td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/AgroVision/blob/master/# ÁREA DO MILHO + APLICAÇÃO DE FUNGICIDA.py'># ÁREA DO MILHO + APLICAÇÃO DE FUNGICIDA.py</a></b></td>
+                <td>- Facilita o gerenciamento de talhões agrícolas adicionando, listando, atualizando, excluindo e exportando dados para CSV<br>- Calcula insumos necessários conforme tipo de cultura e dimensões do talhão<br>- O programa oferece menu intuitivo para interação.</td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/cauasantoslt/AgroVision/blob/master/Link Youtube.txt'>Link Youtube.txt</a></b></td>
+                <td>- Demonstra como integrar mecanismos de autenticação e autorização na arquitetura do projeto<br>- O arquivo exibe camada robusta de segurança que protege dados sensíveis e controla níveis de acesso<br>- Componente essencial para integridade e confidencialidade do projeto, elevando a confiabilidade do sistema.</td>
+            </tr>
+            </table>
+        </blockquote>
+    </details>
 </details>
 
 ---
-## 🚀 Getting Started
+## 🚀 Primeiros Passos
 
-### ☑️ Prerequisites
+### ☑️ Pré-requisitos
 
-Before getting started with AgroVision, ensure your runtime environment meets the following requirements:
+Antes de começar com o AgroVision, certifique-se de que seu ambiente atende aos seguintes requisitos:
 
-- **Programming Language:** R
+- **Linguagem de Programação:** R
 
 
-### ⚙️ Installation
+### ⚙️ Instalação
 
-Install AgroVision using one of the following methods:
+Instale o AgroVision usando um dos métodos abaixo:
 
-**Build from source:**
+**Construir a partir do código-fonte:**
 
-1. Clone the AgroVision repository:
+1. Clone o repositório AgroVision:
 ```sh
 ❯ git clone https://github.com/cauasantoslt/AgroVision
 ```
 
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
 ```sh
 ❯ cd AgroVision
 ```
 
-3. Install the project dependencies:
+3. Instale as dependências do projeto:
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+echo 'INSIRA-O-COMANDO-DE-INSTALAÇÃO-AQUI'
 
 
 
-### 🤖 Usage
-Run AgroVision using the following command:
-echo 'INSERT-RUN-COMMAND-HERE'
+### 🤖 Uso
+Execute o AgroVision com o seguinte comando:
+echo 'INSIRA-O-COMANDO-DE-EXECUÇÃO-AQUI'
 
-### 🧪 Testing
-Run the test suite using the following command:
-echo 'INSERT-TEST-COMMAND-HERE'
-
----
-## 📌 Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+### 🧪 Testes
+Execute a suíte de testes com o seguinte comando:
+echo 'INSIRA-O-COMANDO-DE-TESTES-AQUI'
 
 ---
 
-## 🔰 Contributing
+## 🔰 Contribuindo
 
-- **💬 [Join the Discussions](https://github.com/cauasantoslt/AgroVision/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/cauasantoslt/AgroVision/issues)**: Submit bugs found or log feature requests for the `AgroVision` project.
-- **💡 [Submit Pull Requests](https://github.com/cauasantoslt/AgroVision/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Participe das Discussões](https://github.com/cauasantoslt/AgroVision/discussions)**: Compartilhe ideias, dê feedback ou tire dúvidas.
+- **🐛 [Reporte Problemas](https://github.com/cauasantoslt/AgroVision/issues)**: Envie bugs encontrados ou registre solicitações de funcionalidades para o projeto `AgroVision`.
+- **💡 [Envie Pull Requests](https://github.com/cauasantoslt/AgroVision/blob/main/CONTRIBUTING.md)**: Revise PRs abertos e envie suas próprias contribuições.
 
 <details closed>
-<summary>Contributing Guidelines</summary>
+<summary>Diretrizes de Contribuição</summary>
 
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+1. **Faça um Fork do Repositório**: Comece fazendo um fork do projeto para sua conta do github.
+2. **Clone Localmente**: Clone o repositório forkado para sua máquina usando um cliente git.
    ```sh
    git clone https://github.com/cauasantoslt/AgroVision
    ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+3. **Crie uma Nova Branch**: Sempre trabalhe em uma nova branch, com nome descritivo.
    ```sh
-   git checkout -b new-feature-x
+   git checkout -b nova-funcionalidade-x
    ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
+4. **Faça Suas Alterações**: Desenvolva e teste suas alterações localmente.
+5. **Commit das Alterações**: Faça commit com mensagem clara sobre suas atualizações.
    ```sh
-   git commit -m 'Implemented new feature x.'
+   git commit -m 'Implementada nova funcionalidade x.'
    ```
-6. **Push to github**: Push the changes to your forked repository.
+6. **Envie para o github**: Faça push das alterações para seu repositório forkado.
    ```sh
-   git push origin new-feature-x
+   git push origin nova-funcionalidade-x
    ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+7. **Abra um Pull Request**: Crie um PR para o repositório original. Descreva claramente as mudanças e motivações.
+8. **Revisão**: Após revisão e aprovação, seu PR será mesclado à branch principal. Parabéns pela contribuição!
 </details>
 
 <details closed>
-<summary>Contributor Graph</summary>
+<summary>Gráfico de Contribuidores</summary>
 <br>
 <p align="left">
    <a href="https://github.com{/cauasantoslt/AgroVision/}graphs/contributors">
@@ -187,14 +186,8 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 
-## 🎗 License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+## 🙌 Agradecimentos
 
----
+Agradecemos a todos os colaboradores e colegas que contribuíram com ideias, sugestões e apoio durante o desenvolvimento do AgroVision. Seu envolvimento foi fundamental para o sucesso deste projeto!
 
-## 🙌 Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
----
