@@ -1,0 +1,7 @@
+ID,Cultura,Dimensoes,Area_m2,Area_ha,Insumo,Quantidade_L
+0,Trigo,100x500,50000.0,5.0,Herbicida,10.0
+1,Trigo,200x600,120000.0,12.0,Herbicida,24.0
+2,Milho,500x60,30000.0,3.0,Fungicida,4.5
+3,Milho,900x50,45000.0,4.5,Fungicida,6.75
+4,Trigo,500x120,60000.0,6.0,Herbicida,12.0
+5,Milho,900x450,405000.0,40.5,Fungicida,60.75
